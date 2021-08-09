@@ -1,0 +1,168 @@
+***************
+* OSWE - EXAM *
+* ----------- *
+* Methodology *
+***************
+
+SCANNERS
+
+Nmap Scan ( sudo nmap -sT -A -T4 -p- -Pn -O [SERVER_IP] )
+    ~ IP Address -
+    ~ Machine Name - 
+    ~ Operating System - 
+    ~ Open Ports - 
+Nikto Scan
+Directory Enumeration Using ffuf
+
+
+HIGH-LEVEL
+
+Language -
+Framework -
+Database - 
+Webserver - 
+
+
+BEFORE TESTING
+
+Find web root -
+Turn on database logging
+    ~ Locate config file -
+    ~ Modify config file -
+    ~ Restart service -
+    ~ Locate log file -
+    ~ Confirm logging -
+Turn on web logging
+    ~ Locate config file -
+    ~ Modify config file -
+    ~ Restart service -
+    ~ Locate log file -
+    ~ Confirm logging -
+Enable debugging - 
+Additional logging (if possible) - 
+
+
+BLACK BOX
+
+JavaScript
+    ~ Third-party Libraries -
+    ~ Custom JS Files -
+What features can you find from the BROWSER?
+    ~ Login -
+    ~ Register -
+    ~ Password Reset - 
+    ~ Search -
+    ~ File Upload - 
+    ~ Stored Content (Online Notes) - 
+    ~ Plugins - 
+What features can you find from BURP?
+    ~ API - 
+    ~ Admin Panel - 
+    ~ New Directories/Pages -
+    ~ Websocket - 
+
+
+WHITE BOX
+
+Objects - 
+Routing - 
+Auth vs Unauth Pages -
+SQL Queries - 
+
+
+AUTHENTICATION
+
+Session cookies/tokens -
+Cookies encoded or serialized -
+Password resets -
+How are users created -
+Password Hashed in DB - 
+Difference between authenticated and unauthenticated pages - 
+Difference between admin and non-admin pages -
+
+
+AUTH BYPASS
+
+Predictable token generation (java.util.Random) -
+Type Juggling ( == ) -
+SQLi in login methods -
+Access authenticated / admin pages without authorization - 
+Anything interesting when accessing nonexistent page -
+Cookies used instead of session - 
+Change user details (email) - 
+
+
+SQL INJECTION
+
+User controlled parameters -
+Sanitization -
+Escapable quotes -
+Enumeration or run code -
+If Found:
+    Version - 
+    User/password tables - 
+    Stacked queries - 
+    Type of query - 
+    Copy to - 
+    UDF - 
+    Large Objects - 
+    Execute shell commands - 
+    Creds - 
+    Logging - 
+
+FILE UPLOAD
+
+Blacklists -
+Mime type -
+Where are files stored -
+
+DESERIALIZATION
+
+Anything serialized or deserialized after authentication -
+Cookies -
+Files -
+JSON -
+Pickle -
+Base64 encoded -
+
+CODE INJECTION
+
+User controlled parameters -
+Ability to inject PHP, JS, etc -
+
+XXE
+
+Is XML being used -
+User controlled parameters -
+Local entities -
+External Entities -
+Disclose known files (/etc/passwd, C -\windows\win.ini) -
+RCE capable -
+
+SSTI
+
+Template version -
+Blacklists -
+Useful Subclasses - 
+Run code -
+
+XSS
+
+Injectable fields -
+Alert box -
+Steal cookie -
+CSRF -
+
+VULNERABILITIES DISCOVERED
+
+Type -
+PoC -
+
+REVERSE SHELL
+
+Bash -
+nodeJS -
+PHP -
+Python - 
+Powershell -
+Msfvenom - 
