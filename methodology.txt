@@ -79,16 +79,6 @@ Auth vs Unauth Pages -
 SQL Queries - 
 
 
-===============================
-|   AVOID  *RABBIT*  HOLES!   |
-===============================
-|       Stuck 2+ Hours        |
-|           ------            |
-|     Fifteen Minute Break    |
-|    And Change Vulnerabily   |
-===============================
-
-
 AUTHENTICATION
 
 Session cookies/tokens -
@@ -98,6 +88,16 @@ How are users created -
 Password Hashed in DB - 
 Difference between authenticated and unauthenticated pages - 
 Difference between admin and non-admin pages -
+
+
+===============================
+|   AVOID  *RABBIT*  HOLES!   |
+===============================
+|       Stuck 2+ Hours        |
+|           ------            |
+|     Fifteen Minute Break    |
+|    And Change Vulnerabily   |
+===============================
 
 
 AUTH BYPASS
