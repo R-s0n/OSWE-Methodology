@@ -1,8 +1,17 @@
-***************
-* OSWE - EXAM *
-* ----------- *
-* Methodology *
-***************
+        ***************
+        * OSWE - EXAM *
+        * ----------- *
+        * Methodology *
+        ***************
+
+================================
+|  TAKE   A   *DEEP*   BREATH  |
+================================
+|        Slow is Smooth        |
+|            ------            |
+|        Smooth is Fast        |
+================================
+
 
 SCANNERS
 
@@ -70,6 +79,16 @@ Auth vs Unauth Pages -
 SQL Queries - 
 
 
+===============================
+|   AVOID  *RABBIT*  HOLES!   |
+===============================
+|       Stuck 2+ Hours        |
+|           ------            |
+|     Fifteen Minute Break    |
+|    And Change Vulnerabily   |
+===============================
+
+
 AUTHENTICATION
 
 Session cookies/tokens -
@@ -100,8 +119,8 @@ Escapable quotes -
 Enumeration or run code -
 If Found:
     Version - 
-    User/password tables - 
     Stacked queries - 
+    User/password tables - 
     Type of query - 
     Copy to - 
     UDF - 
@@ -110,11 +129,21 @@ If Found:
     Creds - 
     Logging - 
 
+
+XSS
+
+Injectable fields -
+Alert box -
+Steal cookie -
+CSRF -
+
+
 FILE UPLOAD
 
 Blacklists -
 Mime type -
 Where are files stored -
+
 
 DESERIALIZATION
 
@@ -125,10 +154,12 @@ JSON -
 Pickle -
 Base64 encoded -
 
+
 CODE INJECTION
 
 User controlled parameters -
 Ability to inject PHP, JS, etc -
+
 
 XXE
 
@@ -139,6 +170,7 @@ External Entities -
 Disclose known files (/etc/passwd, C -\windows\win.ini) -
 RCE capable -
 
+
 SSTI
 
 Template version -
@@ -146,17 +178,22 @@ Blacklists -
 Useful Subclasses - 
 Run code -
 
-XSS
 
-Injectable fields -
-Alert box -
-Steal cookie -
-CSRF -
+===============================
+|   AVOID  *RABBIT*  HOLES!   |
+===============================
+|       Stuck 2+ Hours        |
+|           ------            |
+|     Fifteen Minute Break    |
+|    And Change Vulnerabily   |
+===============================
+
 
 VULNERABILITIES DISCOVERED
 
 Type -
 PoC -
+
 
 REVERSE SHELL
 
