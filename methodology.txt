@@ -13,15 +13,13 @@
 ================================
 
 
-SCANNERS
+NMAP
 
-Nmap Scan ( sudo nmap -sT -A -T4 -p- -Pn -O [SERVER_IP] )
+Scan ( sudo nmap -sT -A -T4 -p- -Pn -O [SERVER_IP] )
     ~ IP Address -
     ~ Machine Name - 
     ~ Operating System - 
     ~ Open Ports - 
-Nikto Scan
-Directory Enumeration Using ffuf
 
 
 HIGH-LEVEL
@@ -30,6 +28,8 @@ Language -
 Framework -
 Database - 
 Webserver - 
+What does the application do?
+- 
 
 
 BEFORE TESTING
@@ -49,6 +49,12 @@ Turn on web logging
     ~ Confirm logging -
 Enable debugging - 
 Additional logging (if possible) - 
+
+
+NIKTO
+
+Scan ( nikto -host [URL] )
+    ~ 
 
 
 BLACK BOX
@@ -71,12 +77,18 @@ What features can you find from BURP?
     ~ Websocket - 
 
 
+FFUF
+
+Scan ( ./home/rs0n/go/bin/ffuf -w /usr/share/dirb/wordlists/big.txt -u [URL] -replay-proxy http://127.0.0.1:8080 -recursion -recursion-depth 3 )
+    ~ 
+
+
 WHITE BOX
 
 Objects - 
 Routing - 
 Templating - 
-Auth vs Unauth Pages -
+Auth vs Unauth Pages (Code) -
 SQL Queries - 
 DB Creds - 
 
@@ -88,8 +100,9 @@ Cookies encoded or serialized -
 Password resets -
 How are users created -
 Password Hashed in DB - 
-Difference between authenticated and unauthenticated pages - 
-Difference between admin and non-admin pages -
+Access Control Roles - 
+Auth vs Unauth Pages (Behavior) - 
+Difference between admin and non-admin pages - 
 
 
 ===============================
