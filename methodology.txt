@@ -75,8 +75,10 @@ WHITE BOX
 
 Objects - 
 Routing - 
+Templating - 
 Auth vs Unauth Pages -
 SQL Queries - 
+DB Creds - 
 
 
 AUTHENTICATION
@@ -187,6 +189,13 @@ Run code -
 |     Fifteen Minute Break    |
 |    And Change Vulnerabily   |
 ===============================
+
+
+POINTERS
+
+File - 
+Type - 
+Notes - 
 
 
 VULNERABILITIES DISCOVERED
